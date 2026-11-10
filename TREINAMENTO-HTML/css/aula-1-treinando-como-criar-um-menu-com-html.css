@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 80px;
+  background-color:blueviolet;
+}
+
+.wraper {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  background-color: aquamarine;
+}
+
+.logo h2 {
+  color: rgb(7, 3, 3);
+  font-family: 'Alata', sans-serif;
+}
+
+.title {
+  margin-left: 40px;
+}
+
+.title h2 {
+  font-family: 'Alata', sans-serif;
+  color: rgb(255, 102, 0);
+}
+
+.navegation {
+  display: flex;
+}
+
+.navegation li {
+  margin: 40px;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.navegation li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family:'Alata', sans-serif;
+  color: aliceblue;
+}
+
+.navegation li a:hover {
+background-color: rgb(8, 0, 255);
+color: black;
+}
+
